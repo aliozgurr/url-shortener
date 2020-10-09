@@ -7,3 +7,9 @@ Otherwise, you need to change the URL on blade page.
 
 If you are not using Valet, change these URL's as your host in `welcome.blade.php`
 <img src="https://i.hizliresim.com/ulYmOi.png" height="100">
+
+
+
+To-do:
+
+Add custom slugs
