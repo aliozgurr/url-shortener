@@ -24,15 +24,15 @@
                         <label for="URL">URL</label>
                         <input type="text" class="form-control" name="url" id="url" placeholder="Enter URL">
                         <small id="url" class="form-text text-muted">Please type the URL that you want to shorten</small>
-                        <br>
+                        <br><br>
+                        <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug">
+                        <small id="url" class="form-text text-muted">Add custom slug to URL (optional)</small>
+                        <br><br>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </form>
                 @if($link ?? '' === null)
-                <b>Your URL is: <a href="{{$link->slug}}">{{'https://url-shortener.test/'.$link->slug}}</a></b>
-                @endif
-                @if($existinglink ?? '' === null)
-                <b>That URL already exists.<br><a href="{{$existingLink->slug}}">{{'https://url-shortener.test/'.$existingLink->slug}}</a></b>
+                <b>Shortened URL: <a href="{{$link->slug}}">{{'https://url-shortener.test/'.$link->slug}}</a></b>
                 @endif
             </div>
         </div>

@@ -13,6 +13,16 @@ class LinkController extends Controller
         $link = new Link;
 
         $link->slug = Str::random(4);
+
+        if($request->get('slug') == null)
+        {
+            $link->slug = Str::random(4);
+        }
+        else
+        {
+            $link->slug = $request->get('slug');
+        }
+
         if(substr($request->get('url'), 0,8) == 'https://')
         {
             $link->url = $request->get('url');
@@ -20,6 +30,7 @@ class LinkController extends Controller
         else{
             $link->url = 'https://'.$request->get('url');
         }
+
         $link->save();
 
         return view('welcome')->with(['link' => $link]);
