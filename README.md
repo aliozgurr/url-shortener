@@ -2,7 +2,7 @@ Very simple URL shortener made with Laravel
 
 Requirements: `php 7.4` 
 
-<b>Installation</b>
+<b><h2>Installation</h2></b>
 
 Set up your database configuration on `.env` file
 
@@ -23,7 +23,7 @@ php artisan migrate
 php artisan key:generate
 ```
 
-<b>Usage</b>
+<b><h2>Usage</h2></b>
     
 Put the URL that you want to shorten
 <br>
