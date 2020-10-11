@@ -26,4 +26,4 @@ php artisan key:generate
 <b>Usage</b>
     
 Put the url that you want to shorten
-<img src="https://i.hizliresim.com/fIJCjv.png" width="100" height="100"> then click <b>submit</b> <img src="https://i.hizliresim.com/zdf9a7.png" width="100" height="100">
+<img src="https://i.hizliresim.com/fIJCjv.png" width="200" height="120"> then click <b>submit</b> <img src="https://i.hizliresim.com/zdf9a7.png" width="200" height="120">
