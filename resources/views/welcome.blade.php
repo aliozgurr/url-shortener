@@ -32,7 +32,7 @@
                     </div>
                 </form>
                 @if($link ?? '' === null)
-                <b>Shortened URL: <a href="{{$link->slug}}">{{'https://url-shortener.test/'.$link->slug}}</a></b>
+                <b>Shortened URL: <a href="{{$link->shortened_url}}">{{url($link->shortened_url_slug)}}</a></b>
                 @endif
             </div>
         </div>

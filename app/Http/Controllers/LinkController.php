@@ -12,23 +12,23 @@ class LinkController extends Controller
     {
         $link = new Link;
 
-        $link->slug = Str::random(4);
+        //$link->shortened_url_slug = Str::random(4);
 
         if($request->get('slug') == null)
         {
-            $link->slug = Str::random(4);
+            $link->shortened_url_slug = Str::random(4);
         }
         else
         {
-            $link->slug = $request->get('slug');
+            $link->shortened_url_slug = $request->get('slug');
         }
 
         if(substr($request->get('url'), 0,8) == 'https://')
         {
-            $link->url = $request->get('url');
+            $link->shortened_url = $request->get('url');
         }
         else{
-            $link->url = 'https://'.$request->get('url');
+            $link->shortened_url = 'https://'.$request->get('url');
         }
 
         $link->save();
@@ -38,7 +38,7 @@ class LinkController extends Controller
 
     public function redirect($slug)
     {
-        $url = Link::where('slug','=',$slug)->pluck('url');
+        $url = Link::where('shortened_url_slug','=',$slug)->pluck('shortened_url');
         if($url->first() === null)
         {
             return view('notfound');
