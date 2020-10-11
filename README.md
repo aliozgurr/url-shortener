@@ -30,5 +30,6 @@ Put the URL that you want to shorten
 
 
 <b>Adding custom slugs to shortened URL</b>
+
 Put the URL and custom slug into fields
 <img src="https://i.hizliresim.com/Ohdyzm.png" width="210" height="150">  then click <b>submit</b> <img src="https://i.hizliresim.com/Y62IOQ.png" width="210" height=150>
