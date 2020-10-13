@@ -50,4 +50,4 @@ Enjoy!
 
 <b>P.S</b>
 
-This made in an hour, so it is missing some important features.
+This is made in an hour, so it is missing some important features.
