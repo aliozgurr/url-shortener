@@ -19,6 +19,7 @@ Run these commands
 
 ```
 composer install
+npm install
 php artisan migrate
 php artisan key:generate
 ```
