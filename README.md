@@ -28,7 +28,7 @@ php artisan key:generate
     
 Put the URL that you want to shorten, then click <b>submit</b> 
 <br>
-<img src="https://i.hizliresim.com/jrxV1N" width="220" height="150">  
+<img src="https://i.hizliresim.com/jrxV1N.gif" width="220" height="150">  
 
 <br>
 
@@ -36,7 +36,7 @@ Put the URL that you want to shorten, then click <b>submit</b>
 
 Put the URL and custom slug into fields, then click <b>submit</b>
 <br>
-<img src="https://i.hizliresim.com/WjUlYH" width="210" height="150"> 
+<img src="https://i.hizliresim.com/WjUlYH.gif" width="210" height="150"> 
 
 Enjoy!
 
